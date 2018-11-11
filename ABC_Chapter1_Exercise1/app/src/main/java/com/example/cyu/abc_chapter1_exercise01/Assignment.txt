@@ -1,0 +1,15 @@
+Android Boot Camp
+Case Project 1-1: Famous Technology Quotes App
+
+Requirements Document
+
+Application title: Tech Quotes
+
+Purpose:
+In the Tech Quotes app, a technology quote of  your choice is displayed.
+
+Algorithms:
+The opening screen displays the famous technology quote of the day. Find a quote online.
+
+Conditions:
+You may change the quote to one of your own (Figure 1-24).
