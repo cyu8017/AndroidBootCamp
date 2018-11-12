@@ -1,0 +1,21 @@
+Android Boot Camp
+Case Project 2-2: Segway Rental App
+
+Requirements Document
+
+Application title: Segway Rental App
+
+Purpose:
+In a Segway rental app, a Segway tour is selected and the Segway image is displayed with rental
+information.
+
+Algorithms:
+
+1. The opening screen displays the title of the app, a description, and a Button control
+   (Figure 2-39).
+
+2. When the user chooses to rent a Segway, an image displays the Segway and tour price is shown
+   (Figure 2-40).
+
+Note:
+The Segway image is provided with your student files.
