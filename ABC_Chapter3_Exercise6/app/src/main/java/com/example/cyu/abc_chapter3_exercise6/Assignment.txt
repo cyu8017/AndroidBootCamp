@@ -1,0 +1,24 @@
+Android Boot Camp
+Case Project 3-6: Piggy Bank Children's App
+
+Requirements Document
+
+Application title: Piggy Bank Children's App
+
+Purpose:
+A piggy bank app allows children to enter the number of quarters, dimes, nickels, and pennies that
+they have. The child can select whether to save the money or spend it. Calculate the amount of
+money and display the amount that the child is saving or spending. Create two screens: a welcome
+screen and an input/output screen.
+
+Algorithms:
+
+1. A welcome screen displays the title, image, and button that takes the user to a second screen.
+   The input/output screen requests the number of quarters, dimes, nickels, and pennies. A Spinner
+   control should indicate whether the children are saving or spending their coins. Create your own
+   layout.
+
+2. The results display how much the child is saving or spending.
+
+Conditions:
+Use a theme, Spinner prompt, string array, and hint property. 
