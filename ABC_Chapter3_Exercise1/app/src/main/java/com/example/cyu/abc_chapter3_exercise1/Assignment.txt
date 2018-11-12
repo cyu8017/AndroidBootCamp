@@ -1,0 +1,24 @@
+Android Boot Camp
+Case Project 3-1: Catalina Island Boat Express App
+
+Requirements Document
+
+Application title: Catalina Island Boat Express APp
+
+Purpose:
+Catalina Express has 30 daily departures between Long Beach and Catalina Island.
+Create a simple app that determines how many boat tickets the user needs and whether the ticket is
+going to Catalina Island or heading back to Long Beach. The app displays the total price for the
+fare in one direction.
+
+Algorithms:
+
+1. The app displays a title; an image; and a Text Field, Spinner, and Button control (Figure 3-37).
+   The two options in the spinner control include To Catalina Island and To Long Beach. Each single
+   passenger ticket is $34 for one way.
+
+2. When the user taps or clicks the Button control, the number of tickets and the total cost of the
+   fare is displayed. (Figure 3-38).
+
+Conditions:
+Use a black theme, Spinner Prompt, string array and hint property.
