@@ -1,0 +1,16 @@
+Android Boot Camp
+Case Project 1-2: Android Dessert Names App
+
+Requirements Document
+
+Application title: Dessert Names
+
+Purpose:
+In the Dessert Names app, the Android version names (desserts) introduced in Chapter 1 are
+displayed.
+
+Algorithms:
+The opening screen displays the dessert names of Android versions listed in this chapter.
+
+Conditions:
+Replace the strings.xml text (Figure 1-25). 
