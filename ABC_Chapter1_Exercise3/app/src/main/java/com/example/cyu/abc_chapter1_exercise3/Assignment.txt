@@ -1,0 +1,15 @@
+Android Boot Camp
+Case Project 1-3: Large Tech Companies
+
+Requirements Document
+
+Application title: Large Tech Companies
+
+Purpose:
+In the Large Tech Companies app, the present top five technology companies in the world are
+displayed.
+
+Algorithms:
+The opening screen displays the present top five world technology companies separated by a comma.
+Please research this topic and other them based on revenue. The current companies may not be in the
+same order as displayed in Figure 1-26.
