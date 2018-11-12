@@ -1,0 +1,23 @@
+Android Boot Camp
+Case Project 2-6: Latest Music Scene App
+
+Requirements Document
+
+Application title: The Latest Music Scene
+
+Purpose:
+This large app called the Latest Music Scene contains the latest music news. Create two screens for
+two music news stories. You use the app to select a particular music news story title, and then
+display an image and a paragraph about the music news story.
+
+Algorithms:
+
+1. The opening screen displays two music news story titles that you can create based on the music
+   stories in the news. Each music news story has a separate Button control below the name and
+   displays a small image. Create your own layout.
+
+2. The second screen displays the name of the music story and a paragraph detailing the news.
+   Create your own layout.
+
+Conditions:
+Three Java clases and three XML layouts are needed. 
