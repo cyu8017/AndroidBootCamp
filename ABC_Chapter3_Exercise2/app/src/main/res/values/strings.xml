@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ABC_Chapter3_Exercise2</string>
+    <string name="txtTitle">Triathlon Registration</string>
+    <string name="txtTriathlon">Number of Athletes on Team</string>
+    <string name="btnCost">Compute Cost</string>
+    <string-array name="txtGroup">
+        <item>Lake Placid</item>
+        <item>Big Island Hawaii</item>
+        <item>Miami</item>
+    </string-array>
+</resources>
