@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ABC_Chapter3_Exercise3</string>
+    <string name="btnCost">Compute Cost</string>
+    <string name="txtTitle">Paint Calculator</string>
+    <string name="txtGallons">Number of Gallons</string>
+    <string-array name="txtGroup">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+</resources>

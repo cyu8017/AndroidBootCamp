@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitle"
+        android:id="@+id/textView"
+        android:textSize="33sp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/paint" android:layout_above="@+id/txtGallons"
+        android:layout_alignParentStart="true"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtGallons"
+        android:hint="@string/txtGallons" android:textSize="25sp" android:textAlignment="center"
+        android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCost"
+        android:id="@+id/btnCost"
+        android:textSize="28sp"
+        android:layout_below="@+id/txtGroup" android:layout_alignStart="@+id/txtGallons"
+        android:layout_alignEnd="@+id/txtGallons"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:textSize="22sp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGroup" android:layout_below="@+id/txtGallons"
+        android:layout_alignStart="@+id/btnCost" android:layout_alignEnd="@+id/txtGallons"
+        android:spinnerMode="dialog" android:entries="@array/txtGroup"/>
+</RelativeLayout>
