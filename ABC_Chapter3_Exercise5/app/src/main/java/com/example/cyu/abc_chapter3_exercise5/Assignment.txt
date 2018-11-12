@@ -1,0 +1,22 @@
+Android Boot Camp
+Case Project 3-5: Split the Bill App
+
+Requirements Document
+
+Application title: Split the Bill App
+
+Purpose:
+You are out with friends at a nice restaurant. This app splits the bill, including the tip, among
+the members of your party.
+
+Algorithms:
+
+1. A welcome screen displays the title, image, and button that displays a second screen. The input/
+   output screen requests the restaurant bull and the number of people in your group. The Spinner
+   control asks about the quality of service: Excellent, Average, or Poor.
+
+2. Calculate an 18 percent tip and divide the restaurant bill with the tip included among the
+   members of your party. Display the tip amount and the individual share of the bill.
+
+Conditions:
+Use a theme, Spinner prompt, string array, and hint property.
