@@ -1,0 +1,19 @@
+Android Boot Camp
+Case Project 2-4: Business Card App
+
+Requirements Document
+
+Application title: Business Card App
+
+Purpose:
+This app provides your business card information with your own picture. Create two screens for the
+business card app. You use the app to select the name of a business contact, and then display
+detailed business card information.
+
+Algorithms:
+
+1. The opening screen displays the name of the contact, your picture converted to a .png file, and
+   a Button control. Create your own talent.
+
+2. The second screen displays the name of your school, a picture of your logo, the school address,
+   and the phone number. Create your own layout. 
