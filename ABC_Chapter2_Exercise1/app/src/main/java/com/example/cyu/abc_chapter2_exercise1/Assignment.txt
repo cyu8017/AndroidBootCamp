@@ -1,0 +1,21 @@
+Android Boot Camp
+Case Project 2-1: Youth Hostel App
+
+Requirements Document
+
+Application title: Youth Hostel App
+
+Purpose:
+In a youth hostel reservations app, a hostel is selected and an address and other information are
+displayed.
+
+Algorithms:
+
+1. The opening screen displays the name of a hostel, an image, and a Button control (Figure 2-37).
+   Research a real nae of a hostel app address and cost range to display in your own customized app.
+
+2. When the user selects a hostel, an address and a cost range are displayed in a second screen
+   (Figure 2-38).
+
+Note:
+The hostel image is provided with your student files.
