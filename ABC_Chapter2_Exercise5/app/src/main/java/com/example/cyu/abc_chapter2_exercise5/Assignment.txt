@@ -1,0 +1,21 @@
+Android Boot Camp
+Case Project 2-5: Your Contacts App - Address Book
+
+Requirements Document
+
+Application title: Your Contacts App - Address Book
+
+Purpose:
+This large app provides business contact information in an address book. Create two screens for the
+app. You use the app to select a particular contact, and then display that person's information.
+
+Algorithms:
+
+1. The opening screen displays two names of contacts with the last name starting with the letter J.
+   Each contact has a separate Button control below the name. Create your own layout.
+
+2. The second screen displays the name, address, phone number, and picture of the contact. Create
+   your own layout.
+
+Conditions:
+Three Java classes and three XML Layouts are needed.
