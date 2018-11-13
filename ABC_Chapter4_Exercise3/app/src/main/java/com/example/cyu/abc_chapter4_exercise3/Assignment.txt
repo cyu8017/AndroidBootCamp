@@ -1,0 +1,28 @@
+Android Boot Camp
+Case Project 4-3: Power Tool Rental App
+
+Requirements Document
+
+Application title: Power Tool Rental App
+
+Purpose:
+The app determines the cost of a power washer or tiller.
+
+Algorithms:
+
+1. The opening screen requests the number of days that the power tool will be rented.
+
+2. The user selects a radio button labeled Power Washer or Tiller and then selects the Compute Cost
+   button.
+
+3. The final cost is displayed for the number of days rented.
+
+Conditions:
+
+1. The result is rounded off to th nearest penny.
+
+2. The power washer costs $55.99 a day and the tiller $68.99 a day.
+
+3. Do not enter more than seven days.
+
+4. Locate an image online and resize it for use as a custom launcher icon and Action bar icon.
