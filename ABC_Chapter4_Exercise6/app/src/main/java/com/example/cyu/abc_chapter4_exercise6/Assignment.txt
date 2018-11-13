@@ -1,0 +1,32 @@
+Android Boot Camp
+Case Project 4-6: Average Income Tax by Country App
+
+Requirements Document
+
+Application title: Average Income Tax by Country App
+
+Purpose:
+The Average Income Tax by Country app allows the user to enter the amount of taxable income
+earned in the past year. The user selects has or her country of residence and the yearly income
+tax is displayed.
+
+Algorithms:
+
+1. The opening screen requests two integer values.
+
+2. The user can select addition, subtraction, or multiplication.
+
+3. The entire math problem is displayed with the result.
+
+Conditions:
+The following table displays the annual income tax percentages.
+
+Country:
+
+China - 25% Income Tax
+
+Germany - 32% Income Tax
+
+Sweden - 34% Income Tax
+
+USA - 18% Income Tax
