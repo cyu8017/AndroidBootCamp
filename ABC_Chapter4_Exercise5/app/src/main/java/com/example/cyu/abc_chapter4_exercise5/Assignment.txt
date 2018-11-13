@@ -1,0 +1,25 @@
+Android Boot Camp
+Case Project 4-5: Currency Conversion App
+
+Requirements Document
+
+Application Title: Currency Conversion App
+
+Purpose:
+The Currency Conversion all converts U.S. dollars into euros, Mexican pesos, or Canadian dollars.
+
+Algorithms:
+
+1. The opening screen requests the amount of U.S. dollars to be converted.
+
+2. The user selects euros, Mexican Pesos, or Canadian dollars.
+
+3. The conversion of U.S. dollars to the selected currency is displayed.
+
+Conditions:
+
+1. Use the http://xe.com to locate current conversion rates.
+
+2. The program only converts values below $100,000 U.S. dollars.
+
+3. Use a customized launcher icon.
