@@ -1,0 +1,33 @@
+Android Boot Camp
+Case Project 4-2: Car Wash App
+
+Requirements Document
+
+Purpose:
+Large cities provide ar wash apps where you can purchase packages for your vehicle.
+
+Algorithms:
+
+1. The opening screen requests the type of car wash package you would like to purchase
+   (Figure 4-35).
+
+2. The user selects which type of car wash - exterior only or exterior with interior vacuum
+   services. The Car Wash app charges $8.99 for an exterior wash and $12.99 for an exterior wash
+   with an interior vacuum for a package of 12 or more car washes. If you select less than 12
+   washes, the charge is $10.99 for an exterior wash or $15.99 for an exterior with interior
+   vacuum.
+
+3. When the CALCULATE PACKAGE button is selected, the total price is displayed for the number of
+   car washes purchased (Figure 4-36).
+
+Conditions:
+
+1. Use a customized launcher icon (ic_launcher_carwash.png) and display the same icon in the Action
+   bar using the Theme.AppCompat.Light theme.
+
+2. Display an ImageView control (carwash.png).
+
+3. Only one RadioButton control can be selected.
+
+4. A toast message should pop up when the user enters less than 12 watches that they must buy 12
+   washes to receive a discount.

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ABC_Chapter4_Exercise2</string>
+    <string name="btnORDER">Calculate Package</string>
+
+    <string name="txtTitle">Car Wash</string>
+    <string name="txtAd">Biy 12 + washes for a discount</string>
+    <string name="txtHint">Enter the number of washes</string>
+
+    <string name="radType1">Exterior Only</string>
+    <string name="radType2">Exterior with Interior Vacuum</string>
+</resources>
