@@ -1,0 +1,17 @@
+Android Boot Camp
+Case Project 4-4: Floor Tilling App
+
+Requirements Document
+
+Application title: Floor Tilling App
+
+Purpose:
+The tilling allows you to calculate how many tiles you need to cover a rectangular area.
+
+Algorithms:
+
+1. The opening screen requests the length and the width of a room in whole feet.
+
+2. The user selects whether the tiles are 12 inches by 12 inches or 18 inches by 18 inches.
+
+3. The number of tiles needed to cover the area in square feet is displayed.
