@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ABC_Chapter4_Exercise1</string>
+    <string name="txtTitle">Phone Photo Prints</string>
+    <string name="txtHint">Number of Prints</string>
+    <string name="btnORDER">Order Prints</string>
+    <string name="radType1">4 x 6 (19 cents)</string>
+    <string name="radType2">5 x 7 (49 cents)</string>
+    <string name="radType3">8 x 10 (79 cents)</string>
+</resources>

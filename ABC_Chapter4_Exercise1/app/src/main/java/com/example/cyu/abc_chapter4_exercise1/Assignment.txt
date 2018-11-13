@@ -1,0 +1,27 @@
+Android Boot Camp
+Case Project 4-1: Phone Photo Prints App
+
+Application title: Phone Photo Prints App
+
+Purpose:
+The app determines the cost of printing photos from your phone. The pictures are delivered directly
+to your home.
+
+Algorithms:
+
+1. The opening screen requests the number of photos to print from a user's phone (Figure 4-33).
+
+2. The user selects a radio button labeled 4 x 6 prints (19 cents each) or 5 x 7 prints (49 cents
+   each) and 8 x 10 prints (79 cents each) then selects the ORDER PRINTS button.
+
+3. The cost is displayed for the number of prints (Figure 4-34).
+
+Conditions:
+
+1. The result is rounded to the nearest penny.
+
+2. Do not enter more than 50 prints.
+
+3. Use a theme that displays an Action bar with the Custom Action bar icon in the finished layout.
+
+4. Use a custom launcher icon named ic_launcher_photo.png. 
