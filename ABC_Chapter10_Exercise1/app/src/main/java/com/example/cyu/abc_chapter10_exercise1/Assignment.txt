@@ -1,0 +1,22 @@
+Android Boot Camp
+Case Project 10-1: Facial Expressions App
+
+Requirements Document
+
+Application title: Facial Expressions App
+
+Purpose:
+A series of images uses Frame animation to demonstrate seven facial expressions of an actor.
+
+Algorithms:
+
+1. The opening screen displays the first image of a man with a happy facial expressions
+   (Figure 10-29).
+
+2. When the user taps the SEE THE ACTOR button, the seven facial expressions are each displayed for
+   two seconds. After each image is shown once, the animation ends.
+
+Conditions:
+
+1. The pictures of the seven facial expressions of the actor are provided with your student files
+   with the names of face1 through face7.
