@@ -1,0 +1,22 @@
+Android Boot Camp
+Case Project 5-4: Coffee Finder App
+
+Requirements Document
+
+Application title: Coffee Finder App
+
+Purpose:
+This Coffee Finder App locates four places in your town or city to get a great cup of joe.
+
+Algorithms:
+
+1. The opening screen displays the names of four coffee shops.
+
+2. When the user selects a coffee shop, a second screen displays the name and address of the
+   selected coffee shop with a picture or logo for the coffee shop.
+
+Conditions:
+
+1. Select your own images.
+
+2. Create a custom layout for the list.
