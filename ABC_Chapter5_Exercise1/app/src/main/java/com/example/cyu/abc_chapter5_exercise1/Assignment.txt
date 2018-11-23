@@ -1,0 +1,30 @@
+Android Boot Camp
+Case Project 5-1: Beach and Mountain Bike Rentals App
+
+Requirements Document
+
+Application Title: BEach and Mountain Bike Rental App
+
+Purpose:
+A bike rental shop would like an app that displays information about their beach and mountain bike
+rental services. As each bike is selected, a rental bike is displayed.
+
+Algorithms:
+
+1. The opening screen displays a list of bikes for rent: beach bikes, mountain bikes, and full bike
+   rental shop website (Figure 5-30).
+
+2. When the user selects an item from the list, a full-screen image of the item is displayed for
+   tje first two bike rentals (Figure 5031). The third option opens the website
+   http://www.campusbikeshop.com.
+
+Conditions:
+
+1. The pictures of the two types of bikes are provided with your student files (beach.png and
+   mountain.png).
+
+2. Use the built-in layout simple_list_item_1.
+
+3. Use the Switch decision structure.
+
+4. Use a String table for image descriptions
