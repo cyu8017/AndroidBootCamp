@@ -1,0 +1,21 @@
+Android Boot Camp
+Case Project 7-3: S.P.C.A. Rescue Shelter App
+
+Requirements Document
+
+Application title: S.P.C.A. Rescue Shelter App
+
+Purpose:
+Your local S.P.C.A. needs an app to display pictures of dogs in need of a home.
+
+Algorithms:
+
+1. The screen displays six dogs from the shelter in a large GridView control.
+
+2. When the user selects a thumbnail image of a dog, a full-size image appears below the GridView.
+
+Conditions:
+
+1. Online, find six pictures of the dogs eligible for adoption.
+
+2. Display each image in teh GridView with the size 300, 250.
