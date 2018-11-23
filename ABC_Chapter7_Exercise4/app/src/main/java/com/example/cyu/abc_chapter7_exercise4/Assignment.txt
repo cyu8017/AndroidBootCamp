@@ -1,0 +1,22 @@
+Android Boot Camp
+Case Project 7-4: Car Rental App
+
+Requirements Document
+
+Application title: Car Rental App
+
+Purpose:
+A car rental company would like to display its car rental in a GridView
+
+Algorithms:
+
+1. The opening screen displays oa,ges pf six rental choices in a GridView.
+
+2. When the user selects a car thumbnail image, a full-size image appears below the GridView.
+   Using an if statement, a toast message states the type of car and cost of each rental car.
+
+Conditions:
+
+1. Locate six rental car images on the internet.
+
+2. Create a custom layout using the CENTER scale type.
