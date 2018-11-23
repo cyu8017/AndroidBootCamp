@@ -1,0 +1,23 @@
+Android Boot Camp
+Case Project 7-5: Anthology Wedding Photography App
+
+Requirements Document
+
+Application title: Anthology Wedding Photography App
+
+Purpose:
+Anthology Wedding Photography would like to display a sample of its work with 10 wedding images in
+a GridView.
+
+Algorithms:
+
+1. Create a GridView that displays 10 wedding photos.
+
+2. When the user selects a specific wedding image in the GridView, a large image appears with a
+   custom toast message that displays Anthology Wedding Photo and the image number.
+
+Conditions
+
+1. Select wedding images from the Internet.
+
+2. Use a layout of your choice. 
