@@ -1,0 +1,23 @@
+Android Boot Camp
+Case Project 10-3: Android Rotation App
+
+Requirements Document
+
+Application title: Android Rotation App
+
+Purpose:
+As an advertisement at the end of a television commercial, an Android phone rotates in a perfect
+circle four times.
+
+Algorithms:
+
+1. The opening screen displays an Android phone in the center and automatically begins rotating the
+   image four times in a perfect circle with an interval of 1.5 seconds.
+
+Conditions:
+
+1. Find a picture online of an Android phone.
+
+2. Display the image with the size 100, 170.
+
+3. Code a theme with no title bar.
