@@ -1,0 +1,25 @@
+Android Boot Camp
+Case Project 10-5: Flags of the World App
+
+Requirements Document:
+
+Application title: Flags of the World App
+
+Purpose:
+A sequence of flag images appears when the app starts.
+
+Algorithms:
+
+1. The opening screen displays image of seven world flags. When the user taps a START FLAGS button,
+   a Frame animation displays each flag for 0.75 seconds until the app ends.
+
+2. When the user taps the STOP FLAGS button, the Frame animation stops. The last flag image fades
+   away for 10 seconds until it is no longer visible.
+
+Conditions:
+
+1. Find pictures of the seven world flags online.
+
+2. Display each image with the size 170, 100.
+
+3. Code a theme with no title bar. s
