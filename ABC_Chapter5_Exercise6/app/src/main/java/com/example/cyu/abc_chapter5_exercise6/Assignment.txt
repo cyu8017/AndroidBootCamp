@@ -1,0 +1,16 @@
+Android Boot Camp
+Case Project 5-6: Create Your Own App
+
+Requirements Document
+
+Application title: Create Your Own App
+
+Purpose:
+Get creative! Create an app with five to eight list items with a custom layout and a custom icon
+that links to webpages and other XML layout screens.
+
+Algorithms:
+
+1. Create an app on a topic of your own choice. Create a list.
+
+2. Display XML layout pages as well as webpages on different list items. 
