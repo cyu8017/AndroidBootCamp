@@ -1,0 +1,25 @@
+Android Boot Camp
+Case Project 7-1: Quick Healthy Snack Ideas App
+
+Requirements Document
+
+Application title: Quick Healthy Snack Ideas App
+
+Purpose:
+Stocking your fridge with quick and healthy snacks helps you resist eating diet-damaging foods.
+The Snack apps displays five healthy snack options.
+
+Algorithms:
+
+1. The screen displays five snacks with three on each row in a GridView control (Figure 7-29).
+
+2. When the user selects a thumbnail image of a healthy snack, a larger image appears below the
+   GridView (Figure 7-30).
+
+Conditions:
+
+1. The pictures of the five healthy snacks are provided with your student files with the names
+   snack1 through snack5.
+
+2. Display each image in the GridView using a layout height of 400dp, two columns, 2dp for
+   horizontal and vertical spacing, and a column width of 150dp.
