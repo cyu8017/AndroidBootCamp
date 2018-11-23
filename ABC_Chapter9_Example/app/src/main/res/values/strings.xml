@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bike and Barge</string>
+    <string name="title_item_detail">Bike and Barge</string>
+    <string name="txtBarge">This luxury boat leaves beautiful Amsterdam and finishes 7 days later in budapest, Hungary.</string>
+    <string name="txtBudapest">The majestic Parliament building lies in the center of Budapest, Hungary.</string>
+    <string name="txtDescription">Bike and Barge image.</string>
+    <string name="txtInfo">Join us for a dream vacation filled with biking in cities Europe from Amsterdam to Budapest. The next trip leaves on June 2.</string>
+    <string name="txtTitle">Summer - Bike and Barge Europe Tour.</string>
+</resources>
