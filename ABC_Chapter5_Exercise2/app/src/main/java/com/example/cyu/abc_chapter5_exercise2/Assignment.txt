@@ -1,0 +1,30 @@
+Android Boot Camp
+Case Project 5-2: Chocolate Cafe App
+
+Requirements Document
+
+Application title: Chocolate Cafe App
+
+Purpose:
+A cafe specializing in chocolate desserts is named Chocolate and would like an app that lists the
+specials of the day. As each dessert special is selected, and image is displayed.
+
+Algorithms:
+
+1. The opening screen lists the three dessert specials of the day and displays the restaurant's the
+   restaurant's full website with a custom icon (Figure 5-32).
+
+2. When the user selects one of the three specials (chocolate mousse, chocolate cake, or chocolate
+   macarons), an image of the special is displayed. If the full website is requested,
+   http://www.chocolateatharlem.com opens.
+
+Conditions:
+
+1. The dessert icon is provided with your student files and is named ic_launcher_dessert.png. The
+   three images for the specials are named mousse.png, cake.png, and macarons.png
+
+2. Design a custom layout similar to Figure 5-33
+
+3. Use the Switch decision structure.
+
+4. Use a String table.
