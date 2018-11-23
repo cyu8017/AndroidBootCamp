@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/golf1" android:duration="200"/>
+    <item android:drawable="@drawable/golf2" android:duration="200"/>
+    <item android:drawable="@drawable/golf3" android:duration="200"/>
+    <item android:drawable="@drawable/golf4" android:duration="200"/>
+    <item android:drawable="@drawable/golf5" android:duration="200"/>
+    <item android:drawable="@drawable/golf6" android:duration="200"/>
+</animation-list>

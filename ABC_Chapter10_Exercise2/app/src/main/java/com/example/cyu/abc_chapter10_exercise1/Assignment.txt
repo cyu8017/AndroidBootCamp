@@ -1,0 +1,26 @@
+Android Boot Camp
+Case Project 10-2: Improve Your Golf Stroke App
+
+Requirements Document
+
+Application title: Improve Your Golf Stroke App
+
+Purpose:
+A series of images uses Frame animation to demonstrate the proper positions of the perfect golf
+swing.
+
+Algorithms:
+
+1. The screen displays six images, each showing the proper position during the process of making a
+   golf swing. Display the images in a Frame animation with 0.5 seconds between each image. Each
+   image should nly be displayed once when the user taps the ROTATE YOUR SWING button (Figure 10-30).
+
+2. When the user taps the ROTATE YOUR SWING button, rotate the fifth image around 270 degrees nine
+   times with an interval of three seconds.
+
+Conditions:
+
+1. Six pictures of a golfer at different moments in a golf stroke are provided with your student
+   files with the names golf1 through golf6.
+
+2. Display each image with the size 700, 1000.
