@@ -1,0 +1,24 @@
+Android Boot Camp
+Case Project 7-2: New Seven Wonders of the World App
+
+Purpose:
+Wikipedia would like you to build an ap to showcase the new seven wonders of the world and allow
+users to select any monument to see a large picture.
+
+Algorithms:
+
+1. The opening screen should display in a grid the seven images representing the new seven wonders
+   of the world - Great Wall of China, Petra, The Redeemer, Machu Picchu, Chicken Itza, Colosseum,
+   and Taj Mahal (Figure 7-31).
+
+2. When the user selects a monument image in the GridView control, a larger version of the image
+   appears below the GridView. A toast message states which monument image the user selected by
+   number (Figure 7-32).
+
+Conditions:
+
+1. The pictures of the seven wonders of the world are provided with your student files with the
+   names wonder1 through wonder7.
+
+2. Display each image in the GridView control with four images across each row, and use a column
+   width of 60dp, horizontal spacing 3dp and vertical spacing of 3dp.
