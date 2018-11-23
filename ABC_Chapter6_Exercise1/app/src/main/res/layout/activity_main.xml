@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:id="@+id/imgJig"
+        android:layout_centerHorizontal="true"
+        android:longClickable="false"
+        android:src="@drawable/jig"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnJig"
+        android:id="@+id/btnJig"
+        android:layout_below="@+id/imgJig"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBagpipes"
+        android:id="@+id/btnBagPipes"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp"
+        android:textSize="22sp"/>
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:id="@+id/imgBagPipes"
+        android:src="@drawable/bagpipes"
+        android:layout_above="@+id/btnBagPipes"
+        android:layout_alignStart="@+id/imgJig"/>
+</RelativeLayout>
