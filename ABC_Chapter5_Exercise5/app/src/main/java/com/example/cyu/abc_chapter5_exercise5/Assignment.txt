@@ -1,0 +1,22 @@
+Android Boot Camp
+Case Project 5-5: Tech Gadgets App
+
+Application title: Tech Gadgets App
+
+Purpose:
+The Tech Gadgets app shows the top five technology gadgets of your wish list.
+
+Algorithms:
+
+1. The opening screen displays names of five technology gadgets of your own choosing.
+
+2. If the user selects any of the gadgets, a second screen opens that has an image and a button.
+   If the user clicks the button, a web page opens that displays more information about the tech
+   gadget.
+
+Conditions:
+
+1. Select your own images.
+
+2. Create a custom layout for the list.
+
