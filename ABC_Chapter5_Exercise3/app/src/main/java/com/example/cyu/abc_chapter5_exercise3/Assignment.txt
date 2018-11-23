@@ -1,0 +1,25 @@
+Android Boot Camp
+Case Project 5-3: Rent a Car App
+
+Requirements Document
+
+Application title: Rent A Car App
+
+Purpose:
+A rental car app provides a listing of six nationally known car rental companies. By selecting a car
+company, a car rental site opens.
+
+Algorithms:
+
+1. An opening screen displays an image of a car and a button.
+
+2. The second screen displays a listing of six car rental companies. This screen also contains a
+   custom icon and layout.
+
+3. Each car rental agency can be selected to view a website of the corresponding company.
+
+Conditions:
+
+1. Select your own images.
+
+2. Create a custom layout for the list. 
