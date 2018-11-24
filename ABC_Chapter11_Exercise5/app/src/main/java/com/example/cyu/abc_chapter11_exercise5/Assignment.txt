@@ -1,0 +1,35 @@
+Android Boot Camp
+Case Project 11-5: Amtrak Train App:
+
+Requirements Document
+
+Application title: Amtrak Train App
+
+Purpose:
+The Amtrak Train app determines your arrival time after you enter the boarding time and length of
+trip.
+
+Algorithms:
+
+1. Create an app th at opens with a picture of the Amtrak logo and a title.
+
+   This activity should request:
+
+   a. The boarding time with separate input for hour and minutes on a 24-hour clock.
+
+   b. The length of the entire train trip in minutes only.
+
+   c. The three values are saved using SharedPreferences.
+
+2. The second screen shows the arrival time of the train by hour and minutes of a 24-hour clock.
+
+3. If the arrival is past midnight, display the message "Red-Eye Arrival" in addition to an
+   appropriate image.
+
+Conditions:
+
+1. Locate images for this app online.
+
+2. The maximum hour entered for the boarding time is 23 and the minutes is 59.
+
+3. The maximum number of minutes for length of travel is 1500 minutes.
