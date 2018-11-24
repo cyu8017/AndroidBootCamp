@@ -1,0 +1,36 @@
+Android Boot Camp
+Case Project 11-4: Marathon Race App
+
+Requirements Document
+
+Applications title: Marathon Race App
+
+Purpose:
+Your city is planning a full 26-mile marathon race. Your time is ranked in the top, middle, or
+bottom third of runners.
+
+Algorithms:
+
+1. The opening screen displays the text "Marathon Race" and an image of a marathon.
+
+2. Your total time to run the entire race is requested in two TextView controls, which save the
+   hour and the minutes (for example, 3 hours and 27 minutes).
+
+3. A second screen displays the average time that it took to run one mile.
+
+4. If your average time to run each mile is under 11 minutes, display a top one-third gold medal
+   image.
+
+5. If your average time to run each mile is under 15 minutes, display a middle-third silver medal
+   image.
+
+6. If your average time to run each mile is equal to or more than 15 minutes, display a completion
+   bronze medal image.
+
+Conditions:
+
+1. The completion time for the marathon cannot be more than 10 hours.
+
+2. The number of minutes entered cannot be more than 59 minutes.
+
+3. Locate images for this app online. 
