@@ -1,0 +1,22 @@
+Android Boot Camp
+Case Project 11-6: Your Personal Limerick App
+
+Requirements Document
+
+Application title: Your Personal Limerick App
+
+Purpose:
+Get creative! Request a city, an occupation, a number, and an action verb and create a happy
+limerick with text entered.
+
+Algorithms:
+
+1. Create an app that opens with an image and title and requests a city, occupation, number, and
+   action verb. Save these four items to an XML file using SharedPreferences.
+
+2. The second screen should display a limerick with the four requested items in a poem-like fashion
+   with an image.
+
+Conditions:
+
+1. Select your own images and limerick wording. 
