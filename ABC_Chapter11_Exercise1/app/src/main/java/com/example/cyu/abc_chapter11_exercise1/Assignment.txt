@@ -1,0 +1,29 @@
+Android Boot Camp
+Case Project 11-1: BMI Calculator App
+
+Requirements Document
+
+Application Title: Body Mass Index (BMI) Calculator App
+
+Purpose:
+A body mass index calculator app computes your BMI using a formula.
+
+Algorithms:
+
+1. The first Activity opens displaying the bmi1.png image with the title "BMI Calculator".
+
+2. The first screen requests your weight in pounds to the nearest whole pound and your height in
+   inches to the nearest whole inch (Figure 11-22). These values are saved in persistent data
+   using SharedPreferences.
+
+3. The second Activity opens and retrieves the saved values.
+
+4. The BMI formula needed is:
+   [(weight in pounds) * 703 / (height in inches)^2]
+
+5. The body mass index is displayed to one-tenth of a decimal plalce and the image bmi2.png is
+   displayed (Figure 11-23).
+
+Conditions:
+
+1. The two image files are provided with your student files.
