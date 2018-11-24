@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Mortgage Loan Interest"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/txtMonthlyPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Monthly Payment"
+        android:inputType="numberDecimal"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtNumOfYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMonthlyPayment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Number Of Years"
+        android:inputType="number"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtPrincipalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNumOfYears"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Initial Principal Amount of Loan"
+        android:inputType="number"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnCompute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPrincipalAmount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="COMPUTE INTEREST"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/imgYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCompute"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/mortgage" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+Android Boot Camp
+Case Project 11-2: Home Mortgage Interest App
+
+Requirement Document
+
+Application title: Home Mortgage Interest App
+
+Purpose:
+The Home Mortgage Interest App computes the total interest paid for the life of a home mortgage
+loan.
+
+Algorithms:
+
+1. The opening screen displays an image (mortgage.png) and the title Mortgage Loan Interest
+
+2. The user enters the amount of their monthly mortgage payment, number of years (10, 20, or 30)
+   which must be converted to months, and the initial principal of the loan. Save these values using
+   the SharedPreferences object (Figure 11-24).
+
+3. In the second Activity, retrieve the three values and compute the total interest paid over the
+   life of the loan with this formula:
+
+   Total Interest = (Monthly Payment * Number of Months) - Initial Principal
+
+4. The second screen displays the result of interest paid with an appropriate (ten.png, twenty.png,
+   or thirty.png) for a 10-, 20-, 30-year loan (Figure 11-25).
+
+Conditions:
+
+1. The four images are provided with your student files.
+
+2. The result should appear in currency format. 
