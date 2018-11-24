@@ -1,0 +1,29 @@
+Android Boot Camp
+Case Project 11-3: Relocation Moving Truck Rental App
+
+Requirements Document
+
+Application title: Relocation Moving Truck Rental App
+
+Purpose:
+A relocation moving truck app provides the costs of renting a truck.
+
+Algorithms:
+
+1. An opening screen displays an image of a moving truck and a title.
+
+2. The first Activity requests whether you are renting a:
+   10-foot truck: ($19.95)
+   17-foot truck: ($29.95)
+   26-foot truck: ($39.95)
+   for a one day rental. The number of miles is also requested (99 cents per mile).
+   This data is saved to the SharedPreferences object.
+
+3. The second screen displays a picture of a rental truck the same size that you are renting and
+   the full cost of the rental for one day with the cost of mileage included.
+
+Conditions:
+
+1. Locate images for this app online.
+
+2. The moving costs should be displayed as currency.
