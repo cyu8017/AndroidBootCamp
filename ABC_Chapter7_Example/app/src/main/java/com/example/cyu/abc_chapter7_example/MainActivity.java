@@ -14,12 +14,12 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     Integer[] Animals = {
-            R.drawable.eagle,
-            R.drawable.elephant,
-            R.drawable.gorilla,
-            R.drawable.panda,
-            R.drawable.panther,
-            R.drawable.polar
+        R.drawable.eagle,
+        R.drawable.elephant,
+        R.drawable.gorilla,
+        R.drawable.panda,
+        R.drawable.panther,
+        R.drawable.polar
     };
 
     ImageView pic;
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         GridView grid = findViewById(R.id.gridView);
-        final ImageView pic = findViewById(R.id.imgLarge);
+        findViewById(R.id.imgLarge);
         grid.setAdapter(new ImageAdapter(this));
         grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     public class ImageAdapter extends BaseAdapter {
         private Context context;
-        public ImageAdapter (Context c) {
+        private ImageAdapter (Context c) {
             context = c;
         }
 
