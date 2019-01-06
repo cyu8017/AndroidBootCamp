@@ -1,4 +1,4 @@
-package com.example.cyu.abc_chapter2_example
+package com.example.cyu.abc_chapter2_exercise1
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -11,9 +11,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val button = findViewById<Button>(R.id.btnViewRecipe)
+        val button = findViewById<Button>(R.id.btnHostelInformation)
         button.setOnClickListener {
-            startActivity(Intent(this@MainActivity, Recipe::class.java))
+            startActivity(Intent(this@MainActivity, Hostel::class.java));
         }
     }
 }

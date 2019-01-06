@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Hostel">
 
     <TextView
         android:id="@+id/txtTitle"
@@ -18,25 +18,26 @@
         android:textAlignment="center"
         android:textSize="40sp" />
 
-    <ImageView
-        android:id="@+id/imageView"
+    <TextView
+        android:id="@+id/txtAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="121dp"
-        android:contentDescription="@string/description"
-        android:padding="5dp"
-        app:srcCompat="@drawable/hostel" />
+        android:layout_marginTop="131dp"
+        android:text="@string/txtAddress"
+        android:textAlignment="center"
+        android:textSize="40sp" />
 
-    <Button
-        android:id="@+id/btnHostelInformation"
+    <TextView
+        android:id="@+id/txtCost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="263dp"
-        android:text="@string/btnHostelInformation"
-        android:textSize="30sp" />
+        android:layout_marginTop="299dp"
+        android:text="@string/txtCost"
+        android:textSize="25sp" />
+
 
 </RelativeLayout>
