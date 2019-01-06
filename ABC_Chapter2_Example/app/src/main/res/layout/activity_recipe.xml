@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recipe">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/txtTitle"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txtIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="151dp"
+        android:text="@string/txtIngredients"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="205dp"
+        android:text="@string/txtItem1"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtItem1"
+        android:layout_alignStart="@+id/txtItem1"
+        android:text="@string/txtItem2"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtItem2"
+        android:layout_alignStart="@+id/txtItem1"
+        android:text="@string/txtItem3"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtItem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtItem3"
+        android:layout_alignStart="@+id/txtItem1"
+        android:text="@string/txtItem4"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtDirections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtIngredients"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="258dp"
+        android:text="@string/txtDirections"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtMix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtItem1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="149dp"
+        android:text="@string/txtMix"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

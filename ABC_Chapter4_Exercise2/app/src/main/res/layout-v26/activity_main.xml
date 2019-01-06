@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitle"
+        android:id="@+id/txtTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txtAd"
+        android:id="@+id/txtAd"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtWeight"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:hint="@string/txtHint"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="28sp"
+        android:autofillHints="" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtWeight"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="10dp"
+        android:id="@+id/radioGroup"
+        android:layout_alignStart="@+id/txtWeight"
+        android:layout_alignEnd="@+id/txtWeight">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radType1"
+            android:id="@+id/radType1"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:checked="true"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radType2"
+            android:id="@+id/radType2"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnORDER"
+        android:id="@+id/btnORDER"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:layout_alignParentStart="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:layout_below="@+id/btnORDER"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignEnd="@+id/btnORDER"
+        android:layout_alignStart="@+id/btnORDER"
+        android:textSize="25sp"
+        android:paddingTop="25dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtResult"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/txtTitle"
+        android:src="@drawable/carwash" />
+
+</RelativeLayout>

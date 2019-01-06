@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context=".preExistingActivity"
+        android:id="@+id/btnPreExEligibility">
+
+    <TextView android:id="@+id/activityTitle"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/preExistingActivityTitle"
+              android:textSize="20sp"
+              android:layout_marginBottom="20dp"/>
+
+    <TextView android:id="@+id/initialDepositDate"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/activityTitle"
+              android:text="@string/initialDepositDate"
+              android:textSize="16sp"/>
+
+    <EditText android:id="@+id/txtInitialDepositDate"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/initialDepositDate"
+              android:inputType="date"
+              android:ems="10"
+              android:layout_marginBottom="10dp"
+              android:autofillHints=""
+              android:labelFor="@+id/initialDepositDate"/>
+
+    <TextView android:id="@+id/customerInquiryDate"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/txtInitialDepositDate"
+              android:text="@string/customerInquiryDate"
+              android:textSize="16sp"/>
+
+    <EditText android:id="@+id/txtCustomerInquiryDate"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/customerInquiryDate"
+              android:inputType="date"
+              android:ems="10"
+              android:layout_marginBottom="10dp"
+              android:autofillHints=""
+              android:labelFor="@+id/customerInquiryDate"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/txtResult"
+            android:layout_marginTop="265dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="36sp"/>
+
+    <Button
+            android:text="@string/btnPreExEligibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" android:id="@+id/preExEligibiligy"
+            android:layout_marginBottom="15dp" android:gravity="bottom|center_vertical|center"/>
+
+
+</RelativeLayout>

@@ -39,18 +39,18 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             switch(playing) {
                 case 0:
-                    mpUkulele.start();
-                    playing = 1;
-                    button1.setText("Pause Ukulele Song");
-                    button2.setVisibility(View.INVISIBLE);
-                    break;
+                mpUkulele.start();
+                playing = 1;
+                button1.setText("Pause Ukulele Song");
+                button2.setVisibility(View.INVISIBLE);
+                break;
 
                 case 1:
-                    mpUkulele.pause();
-                    playing = 0;
-                    button1.setText("Play Ukulele Song");
-                    button2.setVisibility(View.VISIBLE);
-                    break;
+                mpUkulele.pause();
+                playing = 0;
+                button1.setText("Play Ukulele Song");
+                button2.setVisibility(View.VISIBLE);
+                break;
             }
         }
     };
@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             switch(playing) {
                 case 0:
-                    mpDrums.start();
-                    playing = 1;
-                    button2.setText("Pause Drums Song");
-                    button1.setVisibility(View.INVISIBLE);
-                    break;
+                mpDrums.start();
+                playing = 1;
+                button2.setText("Pause Drums Song");
+                button1.setVisibility(View.INVISIBLE);
+                break;
 
                 case 1:
             }

@@ -39,7 +39,8 @@
         android:hint="@string/txtHint"
         android:textAlignment="center"
         android:textIsSelectable="false"
-        android:textSize="28sp"/>
+        android:textSize="28sp"
+        android:autofillHints="" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -56,8 +57,6 @@
             android:text="@string/radType1"
             android:id="@+id/radType1"
             android:textSize="20sp"
-            android:layout_below="@+id/txtWeight"
-            android:layout_alignStart="@+id/txtTitle"
             android:layout_marginTop="10dp"
             android:checked="true"/>
         <RadioButton
@@ -66,8 +65,6 @@
             android:text="@string/radType2"
             android:id="@+id/radType2"
             android:textSize="20sp"
-            android:layout_below="@+id/radType1"
-            android:layout_alignStart="@+id/radType1"
             android:layout_marginTop="10dp"/>
     </RadioGroup>
 
@@ -103,6 +100,7 @@
         android:id="@+id/imageView"
         android:src="@drawable/carwash"
         android:layout_below="@+id/txtResult"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true"
+        android:contentDescription="TODO" />
 
 </RelativeLayout>

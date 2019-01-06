@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">ABC_Chapter2_Example</string>
+    <string name="app_name">Healthy Recipes</string>
+    <string name="btnViewRecipe">View Recipe</string>
+    <string name="description">Recipe Image</string>
+    <string name="title_activity_recipe">Recipe</string>
+    <string name="txtDirections">Directions</string>
+    <string name="txtIngredients">Ingredients</string>
+    <string name="txtItem1">4 Plum Tomatoes</string>
+    <string name="txtItem2">6 Basil Leaves</string>
+    <string name="txtItem3">3 Garlic Cloves, Chopped</string>
+    <string name="txtItem4">3TB Olive Oil</string>
+    <string name="txtMix">Combine the ingredients and add salt to taste. Top French bread slices with mixture.</string>
+    <string name="txtTitle">Bruschetta Recipe</string>
 </resources>
