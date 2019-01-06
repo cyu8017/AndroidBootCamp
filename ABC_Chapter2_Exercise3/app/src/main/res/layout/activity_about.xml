@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="5dp"
     android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".About"
+    android:longClickable="false">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,9 +16,9 @@
         android:id="@+id/txtTitle"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:textColor="#f7b40a"
         android:textSize="70sp"
-        android:textAlignment="center"
-        android:textColor="#f7b40a" />
+        android:textAlignment="center"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,29 +28,36 @@
         android:id="@+id/txtStatement"
         android:layout_below="@+id/txtTitle"
         android:layout_centerHorizontal="true"
+        android:textColor="#ab0808"
         android:textSize="20sp"
-        android:textColor="#ab0808"/>
+        android:textIsSelectable="true"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imgUMBC"
-        android:src="@drawable/umbc"
-        android:contentDescription="@string/contentDescription"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="42dp"/>
+        android:id="@+id/imageView"
+        android:src="@drawable/umbc1"
+        android:layout_below="@+id/txtStatement"
+        android:layout_alignStart="@+id/txtTitle"/>
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btnSchool"
-        android:id="@+id/btnSchool"
-        android:textColor="#f7b40a"
+        android:text="@string/txtTitleAddress"
+        android:id="@+id/textView"
         android:textSize="20sp"
-        android:layout_alignBottom="@+id/imgUMBC"
+        android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="62dp"
-        android:backgroundTint="@color/abc_background_cache_hint_selector_material_dark"/>
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/txtPhone"
+        android:id="@+id/textView4"
+        android:textSize="22sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">ABC_Chapter2_Exercise3</string>
+    <string name="app_name">My School</string>
+    <string name="txtTitle">UMBC</string>
+    <string name="txtStatement">An Honors University in Maryland</string>
+    <string name="btnSchool">View School Details</string>
+    <string name="contentDescription">UMBC Image</string>
+    <string name="txtTitleAddress">1000 Hilltop Circle Baltimore, MD 21250</string>
+    <string name="txtPhone">410-455-1000</string>
 </resources>
