@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">ABC_Chapter2_Exercise2</string>
+    <string name="app_name">Segway</string>
+    <string name="btnRentSegway">Rent A Segway</string>
+    <string name="description">Segwau Image</string>
+    <string name="txtTitle">Segway Rentals</string>
+    <string name="txtExperience">Experience the wonder of this future advancement for a city group tour starting at noon each day. </string>
+    <string name="txtCost">The Segway tour is only $52 for an amazing 2-hour journey.</string>
 </resources>
