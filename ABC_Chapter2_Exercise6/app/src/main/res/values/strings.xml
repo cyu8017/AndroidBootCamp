@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">ABC_Chapter2_Exercise6</string>
+    <string name="app_name">Latest Music</string>
+    <string name="txtMusicTitleOne">Something Just Like This - Cold Play</string>
+    <string name="btnColdPlay">Play Song</string>
+    <string name="txtMusicTitleTwo">Paradise - Cold Play</string>
+    <string name="btnColdPlay2">Play Song</string>
+
+    <string name="site_url">https://tutorialwing.com</string>
+
 </resources>
