@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ABC_Chapter2_Exercise5</string>
+    <string name="contact1">Contact One</string>
+    <string name="btnContact1">View Contact One</string>
+    <string name="contact2">Contact Two</string>
+    <string name="btnContact2">View Contact Two</string>
+    <string name="contactOnePhone">123-456-7890</string>
+    <string name="contactTwoPhone">123-123-1234</string>
 </resources>
