@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">ABC_Chapter3_Exercise5</string>
+    <string name="app_name">Tip Calculator</string>
+    <string name="txtTotalBill">Enter Total Bill Price</string>
+    <string name="description">Image</string>
+    <string name="txtResult"></string>
+    <string name="btnCompute">Compute Tip</string>
+    <string name="numOfPeople">Number of People</string>
+    <string-array name="txtGroup">
+        <item>Excellent</item>
+        <item>Average</item>
+        <item>Poor</item>
+    </string-array>
 </resources>

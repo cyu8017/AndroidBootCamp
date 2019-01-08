@@ -40,30 +40,15 @@
         android:inputType="numberDecimal"
         android:textSize="24sp"/>
 
-    <EditText
-        android:id="@+id/numOfPeople"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="301dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/numOfPeople"
-        android:inputType="numberDecimal"
-        android:textSize="24sp" />
-
     <Spinner
         android:id="@+id/txtGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="268dp"
+        android:layout_marginBottom="326dp"
         android:entries="@array/txtGroup"
-        android:spinnerMode="dialog" />
+        android:spinnerMode="dialog"/>
 
     <Button
         android:id="@+id/btnCalculate"
@@ -71,16 +56,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="202dp"
-        android:textSize="24sp" />
+        android:layout_marginBottom="131dp"
+        android:textSize="24sp"/>
 
     <TextView
         android:id="@+id/txtResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="77dp"
-        android:textSize="18sp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:textSize="18sp"/>
 
 </RelativeLayout>
