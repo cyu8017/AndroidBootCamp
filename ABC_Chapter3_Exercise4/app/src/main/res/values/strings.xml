@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">ABC_Chapter3_Exercise4</string>
+    <string name="app_name">Chicago Cab Fare</string>
+    <string name="txtCompany">Chicago Cabs</string>
+    <string name="txtDistance">Enter Distance In Miles</string>
+    <string name="description">Cab Image</string>
+    <string name="txtResult"></string>
+    <string name="btnCompute">Compute Cost</string>
+    <string-array name="txtGroup">
+        <item>Smart Car</item>
+        <item>Traditional Sedan</item>
+        <item>Minivan</item>
+    </string-array>
 </resources>
