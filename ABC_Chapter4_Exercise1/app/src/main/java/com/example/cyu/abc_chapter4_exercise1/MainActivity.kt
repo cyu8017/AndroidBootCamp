@@ -2,7 +2,6 @@ package com.example.cyu.abc_chapter4_exercise1
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioButton
