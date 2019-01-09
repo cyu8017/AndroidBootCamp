@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">ABC_Chapter3_Exercise6</string>
+    <string name="app_name">Piggy Bank</string>
+    <string name="description">Image</string>
+    <string name="txtQuarters">Enter Number of Quarters</string>
+    <string name="txtDimes">Enter Number of Dimes</string>
+    <string name="txtNickels">Enter Number of Nickels</string>
+    <string name="txtPennies">Enter Number of Pennies</string>
+    <string name="btnCalculate">Calculate</string>
+    <string-array name="txtGroup">
+        <item>Saving</item>
+        <item>Spending</item>
+    </string-array>
 </resources>
