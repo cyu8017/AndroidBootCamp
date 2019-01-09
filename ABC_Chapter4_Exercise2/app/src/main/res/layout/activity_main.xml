@@ -40,7 +40,7 @@
         android:textAlignment="center"
         android:textIsSelectable="false"
         android:textSize="28sp"
-        android:autofillHints="" />
+        android:autofillHints="" tools:targetApi="o" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -95,12 +95,12 @@
         android:textAlignment="center"/>
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@drawable/carwash"
         android:layout_below="@+id/txtResult"
         android:layout_alignParentStart="true"
-        android:contentDescription="TODO" />
+        android:contentDescription="@string/txtTitle"
+        android:src="@drawable/carwash" />
 
 </RelativeLayout>

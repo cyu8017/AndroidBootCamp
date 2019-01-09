@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ABC_Chapter4_Exercise3</string>
+    <string name="app_name">Power Tool Rental</string>
+    <string name="numberOfDays">Number of Rental Days</string>
+    <string name="RadA">Power Washer</string>
+    <string name="RadB">Tiler</string>
+    <string name="btnCalculate">Calculate</string>
 </resources>
