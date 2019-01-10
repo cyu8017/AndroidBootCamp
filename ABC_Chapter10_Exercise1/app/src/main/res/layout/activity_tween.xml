@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,9 +8,9 @@
 
     <ImageView
         android:id="@+id/imgTween"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src="@drawable/face7"/>
+        android:src="@drawable/face7" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
