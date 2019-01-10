@@ -1,4 +1,4 @@
-package com.example.cyu.abc_chapter10_example
+package com.example.cyu.abc_chapter10_exercise1
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
