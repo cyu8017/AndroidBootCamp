@@ -14,11 +14,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val imgFrame = findViewById<ImageView>(R.id.imgActor)
+        val button1 = findViewById<Button>(R.id.btnStart)
+
         imgFrame.setBackgroundResource(R.drawable.animation)
         lightsAnimation = imgFrame.background as AnimationDrawable
 
-        val button1 = findViewById<Button>(R.id.btnStart)
         button1.setOnClickListener { lightsAnimation.start() }
     }
 }

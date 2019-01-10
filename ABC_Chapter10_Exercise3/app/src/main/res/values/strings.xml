@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ABC_Chapter10_Exercise3</string>
+    <string name="description">Image</string>
+    <string name="btnStart">Start Animation</string>
 </resources>
