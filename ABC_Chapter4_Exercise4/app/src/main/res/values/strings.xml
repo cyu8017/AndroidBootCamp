@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">ABC_Chapter4_Exercise4</string>
+    <string name="app_name">Floor Tilling</string>
+    <string name="txtLength">Enter Length of The Room</string>
+    <string name="txtWidth">Enter Width of The Room</string>
+    <string name="radType1">12 x 12 </string>
+    <string name="radType2">18 x 18</string>
+    <string name="btnCalculate">Calculate</string>
 </resources>

@@ -29,7 +29,8 @@
         android:hint="@string/txtWeight"
         android:textAlignment="center"
         android:id="@+id/txtWeight"
-        android:textIsSelectable="false"/>
+        android:textIsSelectable="false"
+        android:importantForAutofill="no" tools:targetApi="o"/>
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -44,8 +45,6 @@
             android:layout_height="wrap_content"
             android:text="@string/radLbToKilo"
             android:id="@+id/radLbToKilo"
-            android:layout_alignTop="@+id/txtWeight"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:textSize="20sp"
             android:checked="true"/>
@@ -54,8 +53,6 @@
             android:layout_height="wrap_content"
             android:text="@string/radKiloToLb"
             android:id="@+id/radKiloToLb"
-            android:layout_below="@+id/radioGroup"
-            android:layout_alignParentStart="true"
             android:layout_marginTop="15dp"
             android:textSize="20sp"/>
     </RadioGroup>
