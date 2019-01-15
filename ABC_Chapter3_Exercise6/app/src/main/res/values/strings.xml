@@ -6,6 +6,7 @@
     <string name="txtNickels">Enter Number of Nickels</string>
     <string name="txtPennies">Enter Number of Pennies</string>
     <string name="btnCalculate">Calculate</string>
+    <string name="totalAmount">Total Amount</string>
     <string-array name="txtGroup">
         <item>Saving</item>
         <item>Spending</item>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".MainActivity">
+
+    <!-- Title -->
+    <TextView
+            android:id="@+id/txtTitle"
+            android:text="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"
+            android:textSize="35sp"/>
+    <!-- End Title -->
+
+    <!-- Text Result -->
+    <TextView
+            android:id="@+id/txtResult"
+            android:background="@drawable/text_view_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="72dp"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:textSize="24sp"
+            android:textAlignment="center"/>
+    <!-- End Text Result -->
+
+    <!-- Text Quarters -->
+    <EditText
+            android:id="@+id/txtQuarters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtResult"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:hint="@string/txtQuarters"
+            android:textAlignment="center"
+            android:importantForAutofill="no"/>
+    <!-- End Text Quarters -->
+
+    <!-- Text Dimes -->
+    <EditText
+            android:id="@+id/txtDimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtQuarters"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:hint="@string/txtDimes"
+            android:textAlignment="center"
+            android:importantForAutofill="no"/>
+    <!-- End Text Dimes -->
+
+    <!-- Text Nickels -->
+    <EditText
+            android:id="@+id/txtNickels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDimes"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:hint="@string/txtNickels"
+            android:textAlignment="center"
+            android:importantForAutofill="no"/>
+    <!-- End Text Nickels -->
+
+    <!-- Text Pennies -->
+    <EditText
+            android:id="@+id/txtPennies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNickels"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:hint="@string/txtPennies"
+            android:textAlignment="center"
+            android:importantForAutofill="no"/>
+    <!-- End Text Pennies -->
+
+    <!-- Button Calculate Savings -->
+    <Button
+            android:id="@+id/btnCalculateSavings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPennies"
+            android:layout_marginBottom="15dp"
+            android:text="@string/btnCalculate"
+            android:textAllCaps="false"/>
+    <!-- End Button Calculate Savings -->
+
+    <Button
+            android:id="@+id/btnNewCalculation"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnCalculateSavings"
+            android:layout_centerHorizontal="true"
+            android:text="New Calculation"/>
+
+</RelativeLayout>

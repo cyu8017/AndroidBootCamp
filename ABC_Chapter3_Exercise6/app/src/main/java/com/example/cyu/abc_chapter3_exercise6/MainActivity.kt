@@ -48,7 +48,8 @@ class MainActivity : AppCompatActivity() {
 
                 val currency = DecimalFormat("$###,###.##")
                 groupChoice = group.selectedItem.toString()
-                result.text = "Total Amount " + groupChoice + currency.format(total)
+                //result.text = "Total Amount " + groupChoice + currency.format(total)
+                result.text = String.format(getString(R.string.totalAmount)) + currency.format(total)
             }
         })
     }

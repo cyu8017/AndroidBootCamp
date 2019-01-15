@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Count Your Savings</string>
+    <string name="description">Image</string>
+    <string name="btnCalculate">Calculate Your Savings</string>
+    <string name="txtQuarters">How Many Quarters Do You Have?</string>
+    <string name="txtDimes">How Many Dimes Do You Have?</string>
+    <string name="txtNickels">How Many Nickels Do You Have?</string>
+    <string name="txtPennies">How Many Pennies Do You Have?</string>
+
+    <string name="txtResult">You have saved </string>
+</resources>
