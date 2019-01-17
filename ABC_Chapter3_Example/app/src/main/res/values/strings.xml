@@ -6,6 +6,9 @@
     <string name="prompt">Select Group</string>
     <string name="txtTickets">Number of Tickets</string>
     <string name="txtTitle">Ticket Vault</string>
+    <string name="costFor">Cost For</string>
+    <string name="empty"> </string>
+    <string name="is"> is </string>
     <string-array name="txtGroup">
         <item>Life Revealed</item>
         <item>Spatial Sense</item>

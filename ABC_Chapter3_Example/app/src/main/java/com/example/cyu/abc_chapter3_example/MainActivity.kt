@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
 
                 groupChoice = group.selectedItem.toString()
                 result.text = "Cost for " + groupChoice + " is " + currency.format(totalCost)
+
             }
         })
     }

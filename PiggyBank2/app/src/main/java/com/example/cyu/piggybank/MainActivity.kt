@@ -43,10 +43,6 @@ class MainActivity : AppCompatActivity() {
             // Override button click to listen for following values.
             override fun onClick(view: View) {
                 // Obtaining values from each text field and converting the values to String.
-
-                if (totalQuarters.matches("")) {
-
-                }
                 sumOfQuarters = Integer.parseInt(totalQuarters.text.toString())
                 sumOfDimes = Integer.parseInt(totalDimes.text.toString())
                 sumOfNickels = Integer.parseInt(totalNickels.text.toString())
