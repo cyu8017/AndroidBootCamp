@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ABC_Chapter5_Exercise3</string>
+    <string name="app_name">Car Rentals</string>
+    <string name="contentDescription">Image</string>
+    <string name="btnContinue">Continue</string>
 </resources>
