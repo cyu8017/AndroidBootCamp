@@ -14,18 +14,13 @@ class MainActivity : ListActivity() {
         setContentView(R.layout.activity_main)
 
         val attraction = arrayOf("Chocolate Mousse", "Chocolate Cake", "Chocolate Macaron", "Chocolate Cafe Website")
-
         listAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, attraction)
     }
 
     override fun onListItemClick(i: ListView, v: View, position: Int, id: Long) {
-
         when (position) {
-
             0 -> startActivity(Intent(this@MainActivity, Mousse::class.java))
-
             1 -> startActivity(Intent(this@MainActivity, Cake::class.java))
-
             2 -> startActivity(Intent(this@MainActivity, Macaron::class.java))
         }
     }

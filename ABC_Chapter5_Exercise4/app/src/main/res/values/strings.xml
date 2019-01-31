@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">ABC_Chapter5_Exercise4</string>
+    <string name="app_name">Coffee Finder</string>
+    <string name="contentDescription">Logo</string>
+    <string name="title1">Dunkin Donuts</string>
+    <string name="title1Address">8205 Snowden River Pkwy, Columbia, MD 21045</string>
+    <string name="title2">Mad City Coffee</string>
+    <string name="title2Address">Mad City Coffee, 10801 Hickory Ridge Rd #101, Columbia, MD 21044</string>
+    <string name="title3">Riverside Coffee</string>
+    <string name="title3Address">8865 Stanford Blvd, Columbia, MD 21045</string>
+    <string name="title4">Starbucks</string>
+    <string name="title4Address">7680 Arundel Mills Blvd, Hanover, MD 21076</string>
 </resources>
