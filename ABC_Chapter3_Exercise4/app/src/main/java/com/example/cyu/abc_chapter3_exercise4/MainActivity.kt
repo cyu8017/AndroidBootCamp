@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var distance = findViewById<EditText>(R.id.txtDistance)
-        var group = findViewById<Spinner>(R.id.txtGroup)
+        val distance = findViewById<EditText>(R.id.txtDistance)
+        val group = findViewById<Spinner>(R.id.txtGroup)
 
         val cost = findViewById<Button>(R.id.btnCompute)
         cost.setOnClickListener(object: View.OnClickListener {
